@@ -1,0 +1,64 @@
+* { margin: 0; }
+
+html, body {
+	height: 100%;
+}
+
+#title { width:305px; margin-left:auto; margin-right:auto; }
+
+#body { width: 800px; margin-left:auto; margin-right:auto; position:relative; margin-top:20px; }
+#contents { clear: both; padding:35px 15px 15px; font-size:20px; font-family:Verdana; border-top: 1px solid; }
+#tabs { font-family:Tempus Sans ITC, Cursive; font-size: 24px; color: #101777; width: 800px; top: -20px; position: absolute; }
+
+.tab { padding: 5px 15px; background-color: #efefef; cursor:pointer; position: absolute; text-align: center; }
+.selectedTab { background-color: #101777; color: #efefef; font-weight: bold; }
+
+.content { display:none; }
+.selectedContent { display:block; }
+.services_col { width:50%; padding:0; float:left; }
+
+#tabs #home { width: 75px; left: 60px; }
+#tabs #about { width: 110px; left: 232px; }
+#tabs #services { width: 100px; right: 231px; }
+#tabs #rates { width: 75px; right: 60px; }
+
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+}
+#footer, #push {
+	height: 49px; /* #push must be the same height as .footer */
+	clear: both;
+}
+
+#footer {
+        width: 800px;
+        margin-right: auto;
+        margin-left: auto;
+        border-top: 1px solid;
+}
+
+#footer div {
+	display: inline;
+    font-family: Verdana;
+    font-size: 16px;
+	padding-top: 3px;
+}
+
+#footer .email {
+	float: left;
+}
+
+#footer .phone {
+	float: right;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+ul {
+	margin-left: 15pt;
+}
